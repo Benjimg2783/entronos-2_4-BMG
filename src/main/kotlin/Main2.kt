@@ -1,7 +1,7 @@
 import kotlin.random.Random
 
 fun randomArray():Array<Int?>{
-    var array= arrayOfNulls<Int?>(20)
+    val array= arrayOfNulls<Int?>(20)
     for (i in array.indices){
         array[i]= Random.nextInt(0,100)
     }
